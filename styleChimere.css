@@ -1,0 +1,138 @@
+body {
+    background-color: #FFFFF5;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/*----HEADER----*/
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #DEDDDD;
+}
+
+.logo {
+    height: 15vh;
+    margin: 2vh;
+}
+
+.slogan {
+    font-weight: 400;
+    margin: auto;
+    font-size: 5vh;
+}
+
+.connexion {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+
+.formtxt {
+    font-size: 8vh;
+    color: #545454;
+    margin-bottom: 2vh;
+    font-weight: 300;
+}
+
+.textInput {
+    min-width: 15vw;
+    margin: 1vh;
+    padding: 1.5vh;
+    color: #555;
+    font-size: 110%;
+    border-radius: 5px;
+    background: white;
+    border: 1px solid #7F7F7F;
+    font-weight: 300;
+}
+.milieu{
+  display: flex;
+  justify-content: space-between;
+  width: 50vh;
+}
+
+#submit:hover {
+    background: #2786f3;
+    color: white;
+}
+
+tbody{
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+}
+
+.alignement{
+    display: flex;
+    justify-content: space-around;
+}
+
+.reduire{
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 5vh;
+}
+
+.cadre{
+    border: 1px solid #7F7F7F;
+    padding: 2vw;
+    border-radius: 10px;
+}
+.boutton {
+    margin-left: 10vw;
+    margin-top: 5vh;
+    width: 80vw;
+    height: 80vh;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.choix {
+    width: 15vw;
+    height: 10vh;
+    align-items: center;
+}
+
+.Déconnexion {
+    width: 7vw;
+    height: 5vh;
+    align-items: center;
+}
+.formcreation{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 75vw;
+  margin-left:15%;
+  margin-top: 10%;
+}
+.centre{
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+margin-left: 25%;
+margin-top: 5%;
+margin-bottom: 5%;
+}
+@media (min-width: 765px) {
+    .boutton {
+        flex-direction: row;
+    }
+}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+label {
+    font-size: 3vh;
+    color: #DEDDDD;
+}
